@@ -32,3 +32,24 @@ span을 사용하면 채우기 쉬움 하지만 시작점을 적어줘야함
 
 # 2.6 Line Naming
 grid-template-columns||rows로 지정 할 때 line에 직접적으로 []를 이용해 네이밍을 할 수 있다. 후에 grid-column || row 에 숫자 대신 네이밍을 넣을 수도 있다.
+
+# 2.7 Grid Template
+repeat에 fr이라는 단위가 있음 => 사용 가능한 공간 모두 차지
+grid contatiner에서 적용하는 것
+유연한 layout을 적용할 수 있다.
+row 값을 줄 때는 높이가 없기 설정해줘야하는 것 중요!
+grid-template: row / height
+repeat 사용 불가 (이부분 반복해서 볼 것)
+naming을 사용할 수도 있음
+
+# 2.8 Place items
+justify-items: stretch (default) grid 안의 내용물을 조정할 수 있음
+align-items : flex와 마찬가지로 수직축을 움직임 이것도 stretch가 디폴트
+short cut place-items: y / x
+
+# 2.9 Place Content
+justify-content : grid 전체를 움직이는 것 수평
+align-content : 역시 grid 전체를 움직이는 것 수직
+place-content: y / x
+
+# 2.10 Auto Columns and Rows
