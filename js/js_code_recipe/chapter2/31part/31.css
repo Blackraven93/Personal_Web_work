@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+
+}
+
+header input {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.table {
+    display: flex;
+    margin-top: 10px;
+}
+
+.table td {
+    background-color: wheat;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
