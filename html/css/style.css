@@ -73,6 +73,7 @@ img {
     background-color: var(--primary-color);
     color: #fff;
     position: relative;
+    transform: translate3d(0, 0, 0);
 }
 
 .showcase h1 {
